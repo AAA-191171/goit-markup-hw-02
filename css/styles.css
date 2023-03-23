@@ -14,9 +14,6 @@ body {
   text-decoration: none;
 }
 
-.header-nav {
-}
-
 .heder-logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -31,12 +28,6 @@ body {
 
 .heder-logo-studio {
   color: #2e2f42;
-}
-
-.header-list {
-}
-
-.header-item {
 }
 
 .head-link {
@@ -85,6 +76,7 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
+
 .section-one-button {
   background-color: #4d5ae5;
 }
@@ -155,4 +147,21 @@ body {
 
 .footer-logo-studio {
   color: #f4f4fd;
+}
+.portfolio-one-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+.portfolio-one-button {
+  background-color: #f4f4fd;
+}
+.portfolio-one-button:is(:hover, :focus) {
+  color: #ffffff;
+}
+.portfolio-button-text:is(:hover, :focus) {
+  background-color: #404bbf;
 }
