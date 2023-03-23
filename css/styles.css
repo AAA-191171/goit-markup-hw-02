@@ -79,14 +79,14 @@ body {
 }
 .section-one-button {
   font-family: 'Roboto', sans-serif;
-  background-color: #4d5ae5;
+  background-color: #404bbf;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-.button-text:hover {
+.button-text:is(:hover, :focus) {
   color: #404bbf;
 }
 .section-one-button {
@@ -112,4 +112,8 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+.section-four {
+}
+.section-four-team {
 }
