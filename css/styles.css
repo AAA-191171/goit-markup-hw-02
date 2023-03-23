@@ -47,7 +47,8 @@ body {
 
   color: #2e2f42;
 }
-.head-link:hover {
+
+.head-link:is(:hover, :focus) {
   color: #404bbf;
 }
 
