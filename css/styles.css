@@ -160,10 +160,10 @@ body {
   background-color: #f4f4fd;
 }
 .portfolio-one-button:is(:hover, :focus) {
-  color: #ffffff;
+  background-color: #404bbf;
 }
 .portfolio-button-text:is(:hover, :focus) {
-  background-color: #404bbf;
+  color: #ffffff;
 }
 .portfolio-one-button {
   cursor: pointer;
