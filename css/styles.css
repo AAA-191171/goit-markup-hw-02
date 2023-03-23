@@ -61,7 +61,7 @@ body {
   color: #434455;
 }
 
-.header-address-mail:hover {
+.header-address-mail:is(:hover, :focus) {
   color: #404bbf;
 }
 
@@ -71,7 +71,7 @@ body {
   color: #434455;
 }
 
-.header-address-phon:hover {
+.header-address-phon:is(:hover, :focus) {
   color: #404bbf;
 }
 
