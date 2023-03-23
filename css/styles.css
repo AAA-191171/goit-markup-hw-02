@@ -79,13 +79,16 @@ body {
 }
 .section-one-button {
   font-family: 'Roboto', sans-serif;
-  background-color: #404bbf;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
 }
+.section-one-button {
+  background-color: #4d5ae5;
+}
+
 .button-text:is(:hover, :focus) {
   color: #404bbf;
 }
