@@ -90,14 +90,14 @@ body {
 .section-one-button {
   cursor: pointer;
 }
-.section-too-li {
+.section-two-li {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section-too-par {
+.section-two-par {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -148,6 +148,7 @@ body {
 .footer-logo-studio {
   color: #f4f4fd;
 }
+
 .portfolio-one-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -159,12 +160,14 @@ body {
 .portfolio-one-button {
   background-color: #f4f4fd;
 }
-.portfolio-one-button:is(:hover, :focus) {
-  background-color: #404bbf;
-}
 .portfolio-button-text:is(:hover, :focus) {
   color: #ffffff;
 }
+
+.portfolio-one-button:is(:hover, :focus) {
+  background-color: #404bbf;
+}
+
 .portfolio-one-button {
   cursor: pointer;
 }
