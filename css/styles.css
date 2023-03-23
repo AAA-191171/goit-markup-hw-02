@@ -165,3 +165,6 @@ body {
 .portfolio-button-text:is(:hover, :focus) {
   background-color: #404bbf;
 }
+.portfolio-one-button {
+  cursor: pointer;
+}
