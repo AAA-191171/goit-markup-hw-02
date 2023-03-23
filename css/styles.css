@@ -66,16 +66,6 @@ body {
   color: #404bbf;
 }
 
-.header-address-phon {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.header-address-phon:is(:hover, :focus) {
-  color: #404bbf;
-}
-
 .section-one {
   background-color: #2e2f42;
 }
@@ -114,4 +104,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.section-three {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
