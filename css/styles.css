@@ -52,10 +52,25 @@ body {
 }
 
 .header-address {
+  font-style: normal;
 }
 
 .header-address-mail {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-address-mail:hover {
+  color: #404bbf;
 }
 
 .header-address-phon {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-address-phon:hover {
+  color: #404bbf;
 }
