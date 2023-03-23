@@ -88,6 +88,9 @@ body {
 .section-one-button {
   background-color: #4d5ae5;
 }
+.section-one-button:is(:hover, :focus) {
+  background-color: #404bbf;
+}
 
 .button-text:is(:hover, :focus) {
   color: #404bbf;
