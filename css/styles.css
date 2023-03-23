@@ -76,18 +76,18 @@ body {
   color: #404bbf;
 }
 
-.Section-one {
+.section-one {
   background-color: #2e2f42;
 }
 
-.Section-one-titl {
+.section-one-titl {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.Section-one-button {
+.section-one-button {
   font-family: 'Roboto', sans-serif;
   background-color: #404bbf;
   font-weight: 500;
@@ -99,6 +99,6 @@ body {
 .button-text:hover {
   color: #404bbf;
 }
-.Section-one-button {
+.section-one-button {
   cursor: pointer;
 }
